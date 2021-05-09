@@ -18,8 +18,8 @@ public class TreeMapDemo {
         map.put("hubei", "湖北1");
         //键重复 会覆盖掉原有的指
         map.put("null", "空1");
-        map.put(null, "空2");
-        map.put(null, null);
+//        map.put(null, "空2");
+//        map.put(null, null);
 // 20行的代码被21行覆盖掉
         System.out.println(map);
         for (Map.Entry<String, String> m : map.entrySet()) {

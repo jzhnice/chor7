@@ -33,8 +33,5 @@ public class HashSetDemo {
         set.clear();
         //清除
         System.out.println(set);
-
-
-
     }
 }
